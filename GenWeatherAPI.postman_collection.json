@@ -1,0 +1,134 @@
+{
+  "info": {
+    "name": "GenWeatherAPI",
+    "_postman_id": "f6ed8c42-2b25-4c29-9fc7-9f5c6e9f9b10",
+    "description": "Postman collection for GenWeatherAPI FastAPI endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    },
+    {
+      "key": "reading_date",
+      "value": "2026-05-12"
+    }
+  ],
+  "item": [
+    {
+      "name": "Root",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/"
+      }
+    },
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/health"
+      }
+    },
+    {
+      "name": "Meta - All Sources and Components",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/api/v1/meta"
+      }
+    },
+    {
+      "name": "PQM - Day Wise Readings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/api/v1/pqm/readings/day-wise?date={{reading_date}}"
+      }
+    },
+    {
+      "name": "PQM - Ingest Readings",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"source\": \"api\",\n  \"sources\": [\n    {\n      \"source_code\": \"PQM - 01\",\n      \"blocks\": [\n        {\n          \"block_ts\": \"2026-05-12 02:00:00\",\n          \"components\": {\n            \"total_active_power\": 1560.25\n          }\n        }\n      ]\n    },\n    {\n      \"source_code\": \"PQM - 02\",\n      \"blocks\": [\n        {\n          \"block_ts\": \"2026-05-12 02:00:00\",\n          \"components\": {\n            \"total_active_power\": 1260.5\n          }\n        }\n      ]\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/v1/pqm/readings/ingest"
+      }
+    },
+    {
+      "name": "WMS - Day Wise Readings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/api/v1/wms/readings/day-wise?date={{reading_date}}"
+      }
+    },
+    {
+      "name": "WMS - Ingest Readings",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"source\": \"api\",\n  \"sources\": [\n    {\n      \"source_code\": \"MVPS02\",\n      \"blocks\": [\n        {\n          \"block_ts\": \"2026-05-12 10:00:00\",\n          \"components\": {\n            \"dni_wm2\": 800.5,\n            \"ghi_w\": 620.2,\n            \"wind_speed\": 4.8\n          }\n        }\n      ]\n    },\n    {\n      \"source_code\": \"MVPS14\",\n      \"blocks\": [\n        {\n          \"block_ts\": \"2026-05-12 10:00:00\",\n          \"components\": {\n            \"ghi_w\": 610.1,\n            \"wind_speed\": 5.1\n          }\n        }\n      ]\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/v1/wms/readings/ingest"
+      }
+    },
+    {
+      "name": "SACU - Day Wise Readings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/api/v1/sacu/readings/day-wise?date={{reading_date}}"
+      }
+    },
+    {
+      "name": "SACU - Ingest Readings",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"source\": \"api\",\n  \"sources\": [\n    {\n      \"source_code\": \"MVPS02\",\n      \"blocks\": [\n        {\n          \"block_ts\": \"2026-05-12 11:00:00\",\n          \"components\": {\n            \"sacu_dc_curr\": 100.5,\n            \"sacu_active_power\": 500.2,\n            \"sacu_plant_status_2\": 1,\n            \"sacu_inv_efficiency\": 98.7\n          }\n        }\n      ]\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{base_url}}/api/v1/sacu/readings/ingest"
+      }
+    }
+  ]
+}

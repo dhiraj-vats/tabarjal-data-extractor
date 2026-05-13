@@ -1,0 +1,618 @@
+[
+  {
+    "category": "PQM",
+    "source_code": "PQM01",
+    "component_key": "total_active_power",
+    "tagname": "PQM01 TOTAL ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_PQM01_TOTAL_ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "PQM",
+    "source_code": "PQM02",
+    "component_key": "total_active_power",
+    "tagname": "PQM02 TOTAL ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_PQM02_TOTAL_ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "dni_wm2",
+    "tagname": "MVPS02 DNI WM2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.DNI_WM2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "front_soil_sensor_1",
+    "tagname": "MVPS02 FRONT SOIL SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.FRONT_SOIL_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "front_soil_sensor_2",
+    "tagname": "MVPS02 FRONT SOIL SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.FRONT_SOIL_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "front_tr_loss_sensor_1",
+    "tagname": "MVPS02 FRONT TR LOSS SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.FRONT_TR_LOSS_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "front_tr_loss_sensor_2",
+    "tagname": "MVPS02 FRONT TR LOSS SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.FRONT_TR_LOSS_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "ghi_w",
+    "tagname": "MVPS02 GHI W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.GHI_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "module_temperature_1",
+    "tagname": "MVPS02 MODULE TEMPERATURE 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.MODULE_TEMPERATURE_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "poa1_w",
+    "tagname": "MVPS02 POA1 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.POA1_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "poa2_w",
+    "tagname": "MVPS02 POA2 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.POA2_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "wind_direction",
+    "tagname": "MVPS02 WIND DIRECTION",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.WIND_DIRECTION",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS02",
+    "component_key": "wind_speed",
+    "tagname": "MVPS02 WIND SPEED",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS02_WMS_DATA.WIND_SPEED",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "dni_wm2",
+    "tagname": "MVPS14 DNI WM2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.DNI_WM2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "front_soil_sensor_1",
+    "tagname": "MVPS14 FRONT SOIL SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.FRONT_SOIL_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "front_soil_sensor_2",
+    "tagname": "MVPS14 FRONT SOIL SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.FRONT_SOIL_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "front_tr_loss_sensor_1",
+    "tagname": "MVPS14 FRONT TR LOSS SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.FRONT_TR_LOSS_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "front_tr_loss_sensor_2",
+    "tagname": "MVPS14 FRONT TR LOSS SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.FRONT_TR_LOSS_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "ghi_w",
+    "tagname": "MVPS14 GHI W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.GHI_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "module_temperature_1",
+    "tagname": "MVPS14 MODULE TEMPERATURE 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.MODULE_TEMPERATURE_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "poa1_w",
+    "tagname": "MVPS14 POA1 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.POA1_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "poa2_w",
+    "tagname": "MVPS14 POA2 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.POA2_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "wind_direction",
+    "tagname": "MVPS14 WIND DIRECTION",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.WIND_DIRECTION",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS14",
+    "component_key": "wind_speed",
+    "tagname": "MVPS14 WIND SPEED",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS14_WMS_DATA.WIND_SPEED",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "dni_wm2",
+    "tagname": "MVPS22 DNI WM2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.DNI_WM2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "front_soil_sensor_1",
+    "tagname": "MVPS22 FRONT SOIL SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.FRONT_SOIL_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "front_soil_sensor_2",
+    "tagname": "MVPS22 FRONT SOIL SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.FRONT_SOIL_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "front_tr_loss_sensor_1",
+    "tagname": "MVPS22 FRONT TR LOSS SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.FRONT_TR_LOSS_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "front_tr_loss_sensor_2",
+    "tagname": "MVPS22 FRONT TR LOSS SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.FRONT_TR_LOSS_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "ghi_w",
+    "tagname": "MVPS22 GHI W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.GHI_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "module_temperature_1",
+    "tagname": "MVPS22 MODULE TEMPERATURE 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.MODULE_TEMPERATURE_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "poa1_w",
+    "tagname": "MVPS22 POA1 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.POA1_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "poa2_w",
+    "tagname": "MVPS22 POA2 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.POA2_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "wind_direction",
+    "tagname": "MVPS22 WIND DIRECTION",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.WIND_DIRECTION",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS22",
+    "component_key": "wind_speed",
+    "tagname": "MVPS22 WIND SPEED",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS22_WMS_DATA.WIND_SPEED",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "dni_wm2",
+    "tagname": "MVPS39 DNI WM2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.DNI_WM2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "front_soil_sensor_1",
+    "tagname": "MVPS39 FRONT SOIL SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.FRONT_SOIL_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "front_soil_sensor_2",
+    "tagname": "MVPS39 FRONT SOIL SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.FRONT_SOIL_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "front_tr_loss_sensor_1",
+    "tagname": "MVPS39 FRONT TR LOSS SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.FRONT_TR_LOSS_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "front_tr_loss_sensor_2",
+    "tagname": "MVPS39 FRONT TR LOSS SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.FRONT_TR_LOSS_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "ghi_w",
+    "tagname": "MVPS39 GHI W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.GHI_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "module_temperature_1",
+    "tagname": "MVPS39 MODULE TEMPERATURE 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.MODULE_TEMPERATURE_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "poa1_w",
+    "tagname": "MVPS39 POA1 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.POA1_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "poa2_w",
+    "tagname": "MVPS39 POA2 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.POA2_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "wind_direction",
+    "tagname": "MVPS39 WIND DIRECTION",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.WIND_DIRECTION",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS39",
+    "component_key": "wind_speed",
+    "tagname": "MVPS39 WIND SPEED",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS39_WMS_DATA.WIND_SPEED",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "dni_wm2",
+    "tagname": "MVPS48 DNI WM2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.DNI_WM2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "front_soil_sensor_1",
+    "tagname": "MVPS48 FRONT SOIL SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.FRONT_SOIL_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "front_soil_sensor_2",
+    "tagname": "MVPS48 FRONT SOIL SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.FRONT_SOIL_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "front_tr_loss_sensor_1",
+    "tagname": "MVPS48 FRONT TR LOSS SENSOR 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.FRONT_TR_LOSS_SENSOR_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "front_tr_loss_sensor_2",
+    "tagname": "MVPS48 FRONT TR LOSS SENSOR 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.FRONT_TR_LOSS_SENSOR_2",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "ghi_w",
+    "tagname": "MVPS48 GHI W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.GHI_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "module_temperature_1",
+    "tagname": "MVPS48 MODULE TEMPERATURE 1",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.MODULE_TEMPERATURE_1",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "poa1_w",
+    "tagname": "MVPS48 POA1 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.POA1_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "poa2_w",
+    "tagname": "MVPS48 POA2 W",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.POA2_W",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "wind_direction",
+    "tagname": "MVPS48 WIND DIRECTION",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.WIND_DIRECTION",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "WMS",
+    "source_code": "MVPS48",
+    "component_key": "wind_speed",
+    "tagname": "MVPS48 WIND SPEED",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MCR_MVPS48_WMS_DATA.WIND_SPEED",
+    "opc_endpoint": "opc.tcp://172.16.51.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS02",
+    "component_key": "sacu_dc_curr",
+    "tagname": "MVPS02 SACU DC CURR",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS02_SACU_DATA.DC_CURRENT",
+    "opc_endpoint": "opc.tcp://172.16.2.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS02",
+    "component_key": "sacu_active_power",
+    "tagname": "MVPS02 SACU ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS02_SACU_DATA.ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.2.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS02",
+    "component_key": "sacu_plant_status_2",
+    "tagname": "MVPS02 SACU PLANT STATUS 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS02_SACU_DATA.PPC_COMMUNICATION_CONNE_STATUS",
+    "opc_endpoint": "opc.tcp://172.16.2.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS02",
+    "component_key": "sacu_inv_efficiency",
+    "tagname": "MVPS02 SACU INV EFFICIENCY",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS02_SACU_DATA.INVERTER_EFFICIENCY",
+    "opc_endpoint": "opc.tcp://172.16.2.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS14",
+    "component_key": "sacu_dc_curr",
+    "tagname": "MVPS14 SACU DC CURR",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS14_SACU_DATA.DC_CURRENT",
+    "opc_endpoint": "opc.tcp://172.16.14.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS14",
+    "component_key": "sacu_active_power",
+    "tagname": "MVPS14 SACU ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS14_SACU_DATA.ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.14.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS14",
+    "component_key": "sacu_plant_status_2",
+    "tagname": "MVPS14 SACU PLANT STATUS 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS14_SACU_DATA.PPC_COMMUNICATION_CONNE_STATUS",
+    "opc_endpoint": "opc.tcp://172.16.14.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS14",
+    "component_key": "sacu_inv_efficiency",
+    "tagname": "MVPS14 SACU INV EFFICIENCY",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS14_SACU_DATA.INVERTER_EFFICIENCY",
+    "opc_endpoint": "opc.tcp://172.16.14.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS22",
+    "component_key": "sacu_dc_curr",
+    "tagname": "MVPS22 SACU DC CURR",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS22_SACU_DATA.DC_CURRENT",
+    "opc_endpoint": "opc.tcp://172.16.22.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS22",
+    "component_key": "sacu_active_power",
+    "tagname": "MVPS22 SACU ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS22_SACU_DATA.ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.22.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS22",
+    "component_key": "sacu_plant_status_2",
+    "tagname": "MVPS22 SACU PLANT STATUS 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS22_SACU_DATA.PPC_COMMUNICATION_CONNE_STATUS",
+    "opc_endpoint": "opc.tcp://172.16.22.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS22",
+    "component_key": "sacu_inv_efficiency",
+    "tagname": "MVPS22 SACU INV EFFICIENCY",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS22_SACU_DATA.INVERTER_EFFICIENCY",
+    "opc_endpoint": "opc.tcp://172.16.22.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS39",
+    "component_key": "sacu_dc_curr",
+    "tagname": "MVPS39 SACU DC CURR",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS39_SACU_DATA.DC_CURRENT",
+    "opc_endpoint": "opc.tcp://172.16.39.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS39",
+    "component_key": "sacu_active_power",
+    "tagname": "MVPS39 SACU ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS39_SACU_DATA.ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.39.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS39",
+    "component_key": "sacu_plant_status_2",
+    "tagname": "MVPS39 SACU PLANT STATUS 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS39_SACU_DATA.PPC_COMMUNICATION_CONNE_STATUS",
+    "opc_endpoint": "opc.tcp://172.16.39.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS39",
+    "component_key": "sacu_inv_efficiency",
+    "tagname": "MVPS39 SACU INV EFFICIENCY",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS39_SACU_DATA.INVERTER_EFFICIENCY",
+    "opc_endpoint": "opc.tcp://172.16.39.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS48",
+    "component_key": "sacu_dc_curr",
+    "tagname": "MVPS48 SACU DC CURR",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS48_SACU_DATA.DC_CURRENT",
+    "opc_endpoint": "opc.tcp://172.16.48.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS48",
+    "component_key": "sacu_active_power",
+    "tagname": "MVPS48 SACU ACTIVE POWER",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS48_SACU_DATA.ACTIVE_POWER",
+    "opc_endpoint": "opc.tcp://172.16.48.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS48",
+    "component_key": "sacu_plant_status_2",
+    "tagname": "MVPS48 SACU PLANT STATUS 2",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS48_SACU_DATA.PPC_COMMUNICATION_CONNE_STATUS",
+    "opc_endpoint": "opc.tcp://172.16.48.1:4840"
+  },
+  {
+    "category": "SACU",
+    "source_code": "MVPS48",
+    "component_key": "sacu_inv_efficiency",
+    "tagname": "MVPS48 SACU INV EFFICIENCY",
+    "opc_node_id": "ns=6;s=Arp.Plc.Eclr/MVPS48_SACU_DATA.INVERTER_EFFICIENCY",
+    "opc_endpoint": "opc.tcp://172.16.48.1:4840"
+  }
+]

@@ -1,0 +1,6 @@
+asyncua>=1.1.6
+httpx==0.27.2
+openpyxl==3.1.5
+python-dotenv==1.0.1
+cryptography>=42,<46
+cffi>=1.17

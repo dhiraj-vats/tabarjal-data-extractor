@@ -1,0 +1,34 @@
+# FNS Tabarjal - Run Steps
+
+cd C:\FNS-TABARJAL\data-ingestion
+
+python -m venv .venv
+
+.venv\Scripts\activate
+ 
+ 
+pip install -r requirements.txt
+cp .env.example .env   # edit if API host / interval differ
+```
+
+## Refresh the tag manifest (only if Excel changes)
+
+```bash
+python extract_tags.py           # writes tags.json
+```
+
+This validates every green tag resolves to a `component_key` and that every
+row has an OPC node id and endpoint; it aborts non-zero otherwise.
+
+## Run
+
+```bash
+# normal: poll every POLL_INTERVAL_SECONDS, push forever
+python opcua_forwarder.py
+
+# one cycle then exit — useful for cron or smoke tests
+python opcua_forwarder.py --once
+
+# print the payloads without POSTing (offline debugging)
+python opcua_forwarder.py --once --dry-run
+```
