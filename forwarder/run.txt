@@ -3,8 +3,10 @@
 cd C:\FNS-TABARJAL\data-ingestion
 
 python -m venv .venv
-
 .venv\Scripts\activate
+python extract_tags.py
+python opcua_forwarder.py --once
+
  
  
 pip install -r requirements.txt

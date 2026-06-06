@@ -25,6 +25,7 @@ import argparse
 import asyncio
 import json
 import logging
+import math
 import os
 import signal
 import sys
@@ -81,17 +82,28 @@ def group_by_endpoint(tags: list[Tag]) -> dict[str, list[Tag]]:
 
 
 def _coerce_value(raw: Any) -> float | None:
-    """OPC UA values can be int/float/bool/None. Coerce to float; drop None."""
+    """OPC UA values can be int/float/bool/None. Coerce to a finite float;
+    drop None and non-finite (NaN/inf) values.
+
+    A faulty/dead OPC UA sensor commonly reports NaN. json.dumps serializes
+    that as the bare token ``NaN``, which is invalid JSON and makes strict
+    server-side parsers reject the whole payload (500). Filtering here means a
+    single bad sensor is simply omitted instead of poisoning the batch.
+    """
     if raw is None:
         return None
     if isinstance(raw, bool):
         return float(int(raw))
     if isinstance(raw, (int, float)):
-        return float(raw)
-    try:
-        return float(raw)
-    except (TypeError, ValueError):
+        v = float(raw)
+    else:
+        try:
+            v = float(raw)
+        except (TypeError, ValueError):
+            return None
+    if not math.isfinite(v):
         return None
+    return v
 
 
 class EndpointPoller:
